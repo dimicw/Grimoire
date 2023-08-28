@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,7 +20,7 @@ import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RecyclerViewInterface {
 
     ArrayList<Spell> allSpells = new ArrayList<>();
     ArrayList<Spell> chosenSpells = new ArrayList<>();
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Load XML for parsing
         AssetManager assetManager = getAssets();
-        InputStream inputStream = null;
+        InputStream inputStream;
         try {
             inputStream = assetManager.open("all_spells.xml");
             allSpells = parseSpellXML(inputStream);
@@ -58,14 +59,13 @@ public class MainActivity extends AppCompatActivity {
         assignChosenSpells();                       //CHANGE IN FUTURE
         setUpSpellModels();
 
-        Spell_RecyclerViewAdapter adapter = new Spell_RecyclerViewAdapter(this, spellModels);
+        Spell_RecyclerViewAdapter adapter = new Spell_RecyclerViewAdapter(this, spellModels, this);
 
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
     private void setUpSpellModels() {
-        String levelAndSchool;
         for (Spell s : chosenSpells) {
             spellModels.add(new SpellModel(s.getName(),
                     s.getLevelAndSchool(),
@@ -114,5 +114,25 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return spellsList;
+    }
+
+    @Override
+    public void onItemClick(int position) {
+        Intent intent = new Intent(MainActivity.this, SpellCardActivity.class);
+
+        intent.putExtra("NAME", chosenSpells.get(position).getName());
+        intent.putExtra("LEVEL_AND_SCHOOL", chosenSpells.get(position).getLevelAndSchool());
+        intent.putExtra("CASTING_TIME", chosenSpells.get(position).getCastingTime());
+        intent.putExtra("RITUAL", chosenSpells.get(position).isRitual());
+        intent.putExtra("RANGE", chosenSpells.get(position).getRange());
+        intent.putExtra("V", chosenSpells.get(position).isV());
+        intent.putExtra("S", chosenSpells.get(position).isS());
+        intent.putExtra("M", chosenSpells.get(position).isM());
+        intent.putExtra("COMPONENTS", chosenSpells.get(position).getComponents());
+        intent.putExtra("CONCENTRATION", chosenSpells.get(position).isConcentration());
+        intent.putExtra("DESCRIPTION", chosenSpells.get(position).getDescription());
+        intent.putExtra("IMAGE", spellModels.get(position).getImage());
+
+        startActivity(intent);
     }
 }
