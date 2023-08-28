@@ -3,7 +3,6 @@ package com.example.grimuare;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -24,12 +23,7 @@ public class SpellCardActivity extends AppCompatActivity {
         backgroundImage.setImageResource(
              getIntent().getIntExtra("IMAGE", 0));
 
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                onBackPressed();
-            }
-        });
+        backButton.setOnClickListener(view -> onBackPressed());
 
         String name = getIntent().getStringExtra("NAME");
         TextView tv = findViewById(R.id.nameCard);

@@ -24,13 +24,13 @@
                 android:layout_width="60dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="5dp"
+                android:background="@color/transparent"
+                android:contentDescription="@string/back_button"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="?attr/actionModeCloseDrawable"
-                app:tint="@color/highElfSkin"
-                android:background="@color/transparent"
-                android:contentDescription="Back button"/>
+                app:tint="@color/highElfSkin" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
@@ -59,10 +59,10 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
-                android:text="Name"
                 android:textColor="@color/highElfSkin"
                 android:textSize="28sp"
                 android:textStyle="bold"
+                android:text="@string/placeholder_text"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -75,9 +75,9 @@
                 android:layout_marginTop="6dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
-                android:text="school and level"
                 android:textColor="@color/highElfSkin"
                 android:textSize="14sp"
+                android:text="@string/placeholder_text"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -115,7 +115,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/class_icon___blood_mage" />
+                app:srcCompat="@drawable/class_icon___blood_mage"
+                android:contentDescription="@string/class_image"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 

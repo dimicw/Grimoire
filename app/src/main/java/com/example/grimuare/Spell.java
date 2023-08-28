@@ -14,8 +14,6 @@ public class Spell {
     private boolean concentration;
     private String description;
 
-    public Spell() {}
-
     public Spell(String name, String source, int level, String school, String castingTime,
                  boolean ritual, String range, String components, boolean v, boolean s, boolean m,
                  String duration, boolean concentration, String description) {
@@ -148,14 +146,12 @@ public class Spell {
     }
 
     public String getLevelAndSchool() {
-        String levelAndSchool = "";
+        String levelAndSchool;
 
         if (level == 0)
             return school + " cantrip";
 
         switch(level) {
-            //case 0:
-            //    break;
             case 1:
                 levelAndSchool = "1st";
                 break;

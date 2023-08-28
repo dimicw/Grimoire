@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -33,7 +32,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/class_icon___cleric"
-                app:tint="@color/highElfSkin"/>
+                app:tint="@color/highElfSkin"
+                android:contentDescription="@string/class_image"/>
 
             <TextView
                 android:id="@+id/spellName"
@@ -42,7 +42,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
-                android:text="Name"
+                android:text="@string/placeholder_text"
                 android:textColor="@color/highElfSkin"
                 android:textSize="28sp"
                 android:textStyle="bold"
@@ -58,7 +58,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
-                android:text="x-level school"
+                android:text="@string/placeholder_text"
                 android:textColor="@color/highElfSkin"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
