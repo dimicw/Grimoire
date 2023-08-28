@@ -2,14 +2,20 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
 
     <!-- dark backgrounds -->
-    <color name="nightSky">#111f28</color>
-    <color name="smokedGold">#472B00</color>
+    <color name="nightSky">#FF111f28</color>
+    <color name="smokedGold">#FF472B00</color>
+
+    <!-- shadowy tints -->
+    <color name="blueSmoke">#FF1A2F3C</color>
 
     <!-- light texts -->
-    <color name="highElfSkin">#e3cdb3</color>
-    <color name="roseWater">#E3B3B3</color>
-    <color name="brightSky">#B3DDE3</color>
+    <color name="highElfSkin">#FFE3CDB3</color>
+    <color name="roseWater">#FFE3B3B3</color>
+    <color name="brightSky">#FFB3DDE3</color>
+
+
 
 </resources>
