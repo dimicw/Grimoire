@@ -1,6 +1,8 @@
 package com.example.grimuare;
 
-public class Spell {
+import java.io.Serializable;
+
+public class Spell implements Serializable {
     private String name;
     private String source;
     private int level;
@@ -33,118 +35,91 @@ public class Spell {
         this.description = description;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getSource() {
-        return source;
-    }
-
-    public int getLevel() {
-        return level;
-    }
-
-    public String getSchool() {
-        return school;
-    }
-
-    public String getCastingTime() {
-        return castingTime;
-    }
-
-    public boolean isRitual() {
-        return ritual;
-    }
-
-    public String getRange() {
-        return range;
-    }
-
-    public String getComponents() {
-        return components;
-    }
-
-    public boolean isV() {
-        return v;
-    }
-
-    public boolean isS() {
-        return s;
-    }
-
-    public boolean isM() {
-        return m;
-    }
-
-    public String getDuration() {
-        return duration;
-    }
-
-    public boolean isConcentration() {
-        return concentration;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public void setSource(String source) {
         this.source = source;
     }
-
     public void setLevel(int level) {
         this.level = level;
     }
-
     public void setSchool(String school) {
         this.school = school;
     }
-
     public void setCastingTime(String castingTime) {
         this.castingTime = castingTime;
     }
-
     public void setRitual(boolean ritual) {
         this.ritual = ritual;
     }
-
     public void setRange(String range) {
         this.range = range;
     }
-
     public void setComponents(String components) {
         this.components = components;
     }
-
     public void setV(boolean v) {
         this.v = v;
     }
-
     public void setS(boolean s) {
         this.s = s;
     }
-
     public void setM(boolean m) {
         this.m = m;
     }
-
     public void setDuration(String duration) {
         this.duration = duration;
     }
-
     public void setConcentration(boolean concentration) {
         this.concentration = concentration;
     }
-
     public void setDescription(String description) {
         this.description = description;
     }
 
+    public String getName() {
+        return name;
+    }
+    public String getSource() {
+        return source;
+    }
+    public int getLevel() {
+        return level;
+    }
+    public String getSchool() {
+        return school;
+    }
+    public String getCastingTime() {
+        return castingTime;
+    }
+    public boolean isRitual() {
+        return ritual;
+    }
+    public String getRange() {
+        return range;
+    }
+    public String getComponents() {
+        return components;
+    }
+    public boolean isV() {
+        return v;
+    }
+    public boolean isS() {
+        return s;
+    }
+    public boolean isM() {
+        return m;
+    }
+    public String getDuration() {
+        return duration;
+    }
+    public boolean isConcentration() {
+        return concentration;
+    }
+    public String getDescription() {
+        return description;
+    }
     public String getLevelAndSchool() {
         String levelAndSchool;
 

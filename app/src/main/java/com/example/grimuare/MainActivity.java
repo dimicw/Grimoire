@@ -74,9 +74,8 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
     }
 
     private void assignChosenSpells() {
-        for (Spell s : allSpells) {
+        for (Spell s : allSpells)
             chosenSpells.add(s);
-        }
     }
 
     private static ArrayList<Spell> parseSpellXML(InputStream inputStream) {
@@ -119,19 +118,12 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
     @Override
     public void onItemClick(int position) {
         Intent intent = new Intent(MainActivity.this, SpellCardActivity.class);
+        Bundle bundle = new Bundle();
 
-        intent.putExtra("NAME", chosenSpells.get(position).getName());
-        intent.putExtra("LEVEL_AND_SCHOOL", chosenSpells.get(position).getLevelAndSchool());
-        intent.putExtra("CASTING_TIME", chosenSpells.get(position).getCastingTime());
-        intent.putExtra("RITUAL", chosenSpells.get(position).isRitual());
-        intent.putExtra("RANGE", chosenSpells.get(position).getRange());
-        intent.putExtra("V", chosenSpells.get(position).isV());
-        intent.putExtra("S", chosenSpells.get(position).isS());
-        intent.putExtra("M", chosenSpells.get(position).isM());
-        intent.putExtra("COMPONENTS", chosenSpells.get(position).getComponents());
-        intent.putExtra("CONCENTRATION", chosenSpells.get(position).isConcentration());
-        intent.putExtra("DESCRIPTION", chosenSpells.get(position).getDescription());
-        intent.putExtra("IMAGE", spellModels.get(position).getImage());
+        bundle.putSerializable("SPELL", chosenSpells.get(position));
+        intent.putExtras(bundle);
+
+        intent.putExtra("IMAGE", spellModels.get(position).getImage()); // temporarily
 
         startActivity(intent);
     }
