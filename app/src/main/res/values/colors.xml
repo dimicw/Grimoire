@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- dark backgrounds -->
+    <color name="nightSky">#111f28</color>
+    <color name="smokedGold">#472B00</color>
+
+    <!-- light texts -->
+    <color name="highElfSkin">#e3cdb3</color>
+    <color name="roseWater">#E3B3B3</color>
+    <color name="brightSky">#B3DDE3</color>
+
+</resources>
