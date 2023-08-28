@@ -5,7 +5,17 @@
     <string name="placeholder_text">Placeholder text</string>
 
     <!-- descriptions -->
-    <string name="back_button">Back button</string>
+    <string name="back_button">Back</string>
     <string name="class_image">Class image</string>
+
+    <!-- for cards -->
+    <string name="casting_time">Casting Time: </string>
+    <string name="range">Range: </string>
+    <string name="components">Components: </string>
+    <string name="duration">Duration: </string>
+    <string name="at_higher_levels">At Higher Levels: </string>
+    <string name="v">\ V </string>
+    <string name="s"> S </string>
+    <string name="m"> M </string>
 
 </resources>

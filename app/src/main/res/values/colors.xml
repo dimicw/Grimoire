@@ -5,17 +5,11 @@
     <color name="transparent">#00000000</color>
 
     <!-- dark backgrounds -->
-    <color name="nightSky">#FF111f28</color>
-    <color name="smokedGold">#FF472B00</color>
+    <color name="background">#FF111f28</color>
 
     <!-- shadowy tints -->
-    <color name="blueSmoke">#FF1A2F3C</color>
+    <color name="backgroundImage">#FF1A2F3C</color>
 
     <!-- light texts -->
-    <color name="highElfSkin">#FFE3CDB3</color>
-    <color name="roseWater">#FFE3B3B3</color>
-    <color name="brightSky">#FFB3DDE3</color>
-
-
-
+    <color name="text">#FFE3CDB3</color>
 </resources>

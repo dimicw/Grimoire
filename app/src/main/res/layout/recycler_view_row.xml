@@ -11,7 +11,7 @@
         android:layout_marginBottom="5dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        app:cardBackgroundColor="@color/nightSky"
+        app:cardBackgroundColor="@color/background"
         app:cardCornerRadius="20dp"
         app:cardElevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/class_icon___cleric"
-                app:tint="@color/highElfSkin"
+                app:tint="@color/text"
                 android:contentDescription="@string/class_image"/>
 
             <TextView
@@ -43,7 +43,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
                 android:text="@string/placeholder_text"
-                android:textColor="@color/highElfSkin"
+                android:textColor="@color/text"
                 android:textSize="28sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +59,7 @@
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
                 android:text="@string/placeholder_text"
-                android:textColor="@color/highElfSkin"
+                android:textColor="@color/text"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
