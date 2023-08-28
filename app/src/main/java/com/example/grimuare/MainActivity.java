@@ -23,8 +23,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 public class MainActivity extends AppCompatActivity implements RecyclerViewInterface {
 
     ArrayList<Spell> allSpells = new ArrayList<>();
-    ArrayList<Spell> chosenSpells = new ArrayList<>();
-    ArrayList<SpellModel> spellModels = new ArrayList<>();
+    ArrayList<ChosenSpell> chosenSpells = new ArrayList<>();
     
     int[] classImages = {
             R.drawable.class_icon___artificer,  //0
@@ -57,25 +56,17 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
 
         assignChosenSpells();                       //CHANGE IN FUTURE
-        setUpSpellModels();
 
-        Spell_RecyclerViewAdapter adapter = new Spell_RecyclerViewAdapter(this, spellModels, this);
+        Spell_RecyclerViewAdapter adapter = new Spell_RecyclerViewAdapter(
+                this, chosenSpells, this);
 
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
-    private void setUpSpellModels() {
-        for (Spell s : chosenSpells) {
-            spellModels.add(new SpellModel(s.getName(),
-                    s.getLevelAndSchool(),
-                    classImages[8]));
-        }
-    }
-
     private void assignChosenSpells() {
         for (Spell s : allSpells)
-            chosenSpells.add(s);
+            chosenSpells.add(new ChosenSpell(s, classImages[3]));
     }
 
     private static ArrayList<Spell> parseSpellXML(InputStream inputStream) {
@@ -122,8 +113,6 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
 
         bundle.putSerializable("SPELL", chosenSpells.get(position));
         intent.putExtras(bundle);
-
-        intent.putExtra("IMAGE", spellModels.get(position).getImage()); // temporarily
 
         startActivity(intent);
     }

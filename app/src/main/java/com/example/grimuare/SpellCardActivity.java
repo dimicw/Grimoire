@@ -13,7 +13,7 @@ public class SpellCardActivity extends AppCompatActivity {
     Intent intent;
     Bundle bundle;
 
-    Spell spell;
+    ChosenSpell spell;
 
     ImageButton backButton;
     ImageView backgroundImage;
@@ -27,7 +27,7 @@ public class SpellCardActivity extends AppCompatActivity {
         intent = getIntent();
         bundle = intent.getExtras();
 
-        spell = (Spell)bundle.getSerializable("SPELL");
+        spell = (ChosenSpell)bundle.getSerializable("SPELL");
 
         backButton = findViewById(R.id.backButton);
         backgroundImage = findViewById(R.id.backgroundImage);
@@ -36,8 +36,7 @@ public class SpellCardActivity extends AppCompatActivity {
 
         backButton.setOnClickListener(view -> onBackPressed());
 
-        backgroundImage.setImageResource(
-             getIntent().getIntExtra("IMAGE", 0));
+        backgroundImage.setImageResource(spell.getImage());
         tvName.setText(spell.getName());
         tvLevelAndSchool.setText(spell.getLevelAndSchool());
     }

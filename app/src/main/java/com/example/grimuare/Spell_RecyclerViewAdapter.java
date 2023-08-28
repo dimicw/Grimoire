@@ -16,12 +16,12 @@ public class Spell_RecyclerViewAdapter extends RecyclerView.Adapter<Spell_Recycl
     private final RecyclerViewInterface recyclerViewInterface;
 
     Context context;
-    ArrayList<SpellModel> spellModels;
+    ArrayList<ChosenSpell> chosenSpells;
 
-    public Spell_RecyclerViewAdapter (Context context, ArrayList<SpellModel> spellModels,
+    public Spell_RecyclerViewAdapter (Context context, ArrayList<ChosenSpell> chosenSpells,
                                       RecyclerViewInterface recyclerViewInterface) {
         this.context = context;
-        this.spellModels = spellModels;
+        this.chosenSpells = chosenSpells;
         this.recyclerViewInterface = recyclerViewInterface;
     }
 
@@ -36,14 +36,14 @@ public class Spell_RecyclerViewAdapter extends RecyclerView.Adapter<Spell_Recycl
 
     @Override
     public void onBindViewHolder(@NonNull Spell_RecyclerViewAdapter.MyViewHolder holder, int position) {
-        holder.tvName.setText(spellModels.get(position).getName());
-        holder.tvLevelAndSchool.setText(spellModels.get(position).getLevelAndSchool());
-        holder.imageView.setImageResource(spellModels.get(position).getImage());
+        holder.tvName.setText(chosenSpells.get(position).getName());
+        holder.tvLevelAndSchool.setText(chosenSpells.get(position).getLevelAndSchool());
+        holder.imageView.setImageResource(chosenSpells.get(position).getImage());
     }
 
     @Override
     public int getItemCount() {
-        return spellModels.size();
+        return chosenSpells.size();
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
@@ -58,15 +58,12 @@ public class Spell_RecyclerViewAdapter extends RecyclerView.Adapter<Spell_Recycl
             tvName = itemView.findViewById(R.id.spellName);
             tvLevelAndSchool = itemView.findViewById(R.id.levelAndSchool);
 
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    if(recyclerViewInterface != null) {
-                        int pos = getAdapterPosition();
+            itemView.setOnClickListener(view -> {
+                if(recyclerViewInterface != null) {
+                    int pos = getAdapterPosition();
 
-                        if(pos != RecyclerView.NO_POSITION)
-                            recyclerViewInterface.onItemClick(pos);
-                    }
+                    if(pos != RecyclerView.NO_POSITION)
+                        recyclerViewInterface.onItemClick(pos);
                 }
             });
         }
