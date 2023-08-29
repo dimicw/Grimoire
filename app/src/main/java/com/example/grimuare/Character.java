@@ -3,8 +3,11 @@ package com.example.grimuare;
 public class Character {
     private int strength, dexterity, constitution, intelligence, wisdom, charisma;
     private int level;
+    private String mainClass;
+    private int image;
 
-    public Character(int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma, int level) {
+    public Character(int strength, int dexterity, int constitution, int intelligence, int wisdom,
+                     int charisma, int level, String mainClass, int image) {
         this.strength = strength;
         this.dexterity = dexterity;
         this.constitution = constitution;
@@ -12,6 +15,8 @@ public class Character {
         this.wisdom = wisdom;
         this.charisma = charisma;
         this.level = level;
+        this.mainClass = mainClass;
+        this.image = image;
     }
 
     public int getStrength() {
@@ -35,6 +40,13 @@ public class Character {
     public int getLevel() {
         return level;
     }
+    public int getImage() {
+        return image;
+    }
+    public String getMainClass() {
+        return mainClass;
+    }
+
     public void setStrength(int strength) {
         this.strength = strength;
     }
@@ -55,6 +67,12 @@ public class Character {
     }
     public void setLevel(int level) {
         this.level = level;
+    }
+    public void setImage(int image) {
+        this.image = image;
+    }
+    public void setMainClass(String mainClass) {
+        this.mainClass = mainClass;
     }
 
     public int getModifier(String ability) {

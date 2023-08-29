@@ -5,8 +5,10 @@
     <string name="placeholder_text">Placeholder text</string>
 
     <!-- descriptions -->
-    <string name="back_button">Back</string>
-    <string name="class_image">Class image</string>
+    <string name="back_button">back</string>
+    <string name="class_image">class image</string>
+    <string name="open_nav">open</string>
+    <string name="close_nav">close</string>
 
     <!-- for cards -->
     <string name="casting_time">Casting Time: </string>
@@ -17,4 +19,10 @@
     <string name="v">\ V </string>
     <string name="s"> S </string>
     <string name="m"> M </string>
+
+    <!-- buttons -->
+    <string name="browse_spells_button">Browse prepared spells</string>
+    <string name="add_spell_button">Add spell to spellbook</string>
+    <string name="add_character_button">Create new character</string>
+    <string name="switch_character_button">Switch character</string>
 </resources>

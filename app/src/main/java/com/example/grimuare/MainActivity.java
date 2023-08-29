@@ -1,14 +1,20 @@
 package com.example.grimuare;
 
-import androidx.appcompat.app.AlertDialog;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
+
+import com.google.android.material.navigation.NavigationView;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -21,10 +27,14 @@ import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-public class MainActivity extends AppCompatActivity implements RecyclerViewInterface {
+public class MainActivity extends AppCompatActivity
+        implements RecyclerViewInterface, NavigationView.OnNavigationItemSelectedListener {
 
     ArrayList<Spell> allSpells = new ArrayList<>();
     ArrayList<ChosenSpell> chosenSpells = new ArrayList<>();
+
+    RecyclerView recyclerView;
+    private DrawerLayout drawerLayout;
 
     int[] classImages = {
             R.drawable.class_icon___artificer,  //0
@@ -54,16 +64,69 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
             Log.e("tag", e.getMessage());
         }
 
-        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+        //recyclerView = findViewById(R.id.recyclerView);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        drawerLayout = findViewById(R.id.drawer_layout);
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar,
+                R.string.open_nav, R.string.close_nav);
+        drawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
+
+        if(savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new BrowseSpellsFragment()).commit();
+            navigationView.setCheckedItem(R.id.nav_browse_spells);
+        }
 
         assignChosenSpells();                       //CHANGE IN FUTURE
 
-        Spell_RecyclerViewAdapter adapter = new Spell_RecyclerViewAdapter(
+        // TODO: put it back
+        /*Spell_RecyclerViewAdapter adapter = new Spell_RecyclerViewAdapter(
                 this, chosenSpells, this);
 
         recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));*/
     }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId() == R.id.nav_browse_spells)
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    new BrowseSpellsFragment()).commit();
+        else if(item.getItemId() == R.id.nav_add_spell)
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    new AddSpellFragment()).commit();
+        else if(item.getItemId() == R.id.nav_switch_character)
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    new ChangeCharacterFragment()).commit();
+        else if(item.getItemId() == R.id.nav_add_character)
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    new AddCharacterFragment()).commit();
+
+        drawerLayout.closeDrawer(GravityCompat.START);
+        return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(drawerLayout.isDrawerOpen(GravityCompat.START))
+            drawerLayout.closeDrawer(GravityCompat.START);
+        else
+            super.onBackPressed();
+    }
+
+    /*@Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(drawerToggle.onOptionsItemSelected(item))
+            return true;
+        return super.onOptionsItemSelected(item);
+    }*/
+
 
     private void assignChosenSpells() {
         for (Spell s : allSpells)
