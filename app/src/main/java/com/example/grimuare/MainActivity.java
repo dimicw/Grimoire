@@ -28,12 +28,14 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 public class MainActivity extends AppCompatActivity
-        implements RecyclerViewInterface, NavigationView.OnNavigationItemSelectedListener {
+        implements
+        //RecyclerViewInterface,
+        NavigationView.OnNavigationItemSelectedListener {
 
     ArrayList<Spell> allSpells = new ArrayList<>();
     ArrayList<ChosenSpell> chosenSpells = new ArrayList<>();
 
-    RecyclerView recyclerView;
+    //RecyclerView recyclerView;
     private DrawerLayout drawerLayout;
 
     int[] classImages = {
@@ -79,7 +81,8 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
 
         if(savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new BrowseSpellsFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    BrowseSpellsFragment.newInstance(chosenSpells, classImages)).commit();
             navigationView.setCheckedItem(R.id.nav_browse_spells);
         }
 
@@ -97,7 +100,7 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         if(item.getItemId() == R.id.nav_browse_spells)
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new BrowseSpellsFragment()).commit();
+                    BrowseSpellsFragment.newInstance(chosenSpells, classImages)).commit();
         else if(item.getItemId() == R.id.nav_add_spell)
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new AddSpellFragment()).commit();
@@ -179,6 +182,7 @@ public class MainActivity extends AppCompatActivity
         return spellsList;
     }
 
+    /*
     @Override
     public void onItemClick(int position) {
         Intent intent = new Intent(MainActivity.this, SpellCardActivity.class);
@@ -189,4 +193,5 @@ public class MainActivity extends AppCompatActivity
 
         startActivity(intent);
     }
+    */
 }
