@@ -6,9 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.util.Log;
@@ -28,14 +26,11 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 public class MainActivity extends AppCompatActivity
-        implements
-        //RecyclerViewInterface,
-        NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener {
 
     ArrayList<Spell> allSpells = new ArrayList<>();
     ArrayList<ChosenSpell> chosenSpells = new ArrayList<>();
 
-    //RecyclerView recyclerView;
     private DrawerLayout drawerLayout;
 
     int[] classImages = {
@@ -66,8 +61,6 @@ public class MainActivity extends AppCompatActivity
             Log.e("tag", e.getMessage());
         }
 
-        //recyclerView = findViewById(R.id.recyclerView);
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -87,13 +80,6 @@ public class MainActivity extends AppCompatActivity
         }
 
         assignChosenSpells();                       //CHANGE IN FUTURE
-
-        // TODO: put it back
-        /*Spell_RecyclerViewAdapter adapter = new Spell_RecyclerViewAdapter(
-                this, chosenSpells, this);
-
-        recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));*/
     }
 
     @Override
@@ -122,13 +108,6 @@ public class MainActivity extends AppCompatActivity
         else
             super.onBackPressed();
     }
-
-    /*@Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if(drawerToggle.onOptionsItemSelected(item))
-            return true;
-        return super.onOptionsItemSelected(item);
-    }*/
 
 
     private void assignChosenSpells() {
@@ -181,17 +160,4 @@ public class MainActivity extends AppCompatActivity
 
         return spellsList;
     }
-
-    /*
-    @Override
-    public void onItemClick(int position) {
-        Intent intent = new Intent(MainActivity.this, SpellCardActivity.class);
-        Bundle bundle = new Bundle();
-
-        bundle.putSerializable("SPELL", chosenSpells.get(position));
-        intent.putExtras(bundle);
-
-        startActivity(intent);
-    }
-    */
 }
