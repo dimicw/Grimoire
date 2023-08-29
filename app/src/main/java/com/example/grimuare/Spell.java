@@ -14,11 +14,11 @@ public class Spell implements Serializable {
     private boolean v, s, m;
     private String duration;
     private boolean concentration;
-    private String description;
+    private String[] description;
 
     public Spell(String name, String source, int level, String school, String castingTime,
                  boolean ritual, String range, String components, boolean v, boolean s, boolean m,
-                 String duration, boolean concentration, String description) {
+                 String duration, boolean concentration, String[] description) {
         this.name = name;
         this.source = source;
         this.level = level;
@@ -74,7 +74,7 @@ public class Spell implements Serializable {
     public void setConcentration(boolean concentration) {
         this.concentration = concentration;
     }
-    public void setDescription(String description) {
+    public void setDescription(String[] description) {
         this.description = description;
     }
 
@@ -117,7 +117,7 @@ public class Spell implements Serializable {
     public boolean isConcentration() {
         return concentration;
     }
-    public String getDescription() {
+    public String[] getDescription() {
         return description;
     }
     public String getLevelAndSchool() {

@@ -1,7 +1,6 @@
 package com.example.grimuare;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -51,7 +50,8 @@ public class SpellCardActivity extends AppCompatActivity {
         tvCastingTime.append(" " + spell.getCastingTime());
         tvRange.append(" " + spell.getRange());
         tvDuration.append(" " + spell.getDuration());
-        tvDescription.setText(spell.getDescription());
+        for (int i = 0; i < spell.getDescription().length; i++)
+            tvDescription.setText(spell.getDescription()[i] + "\n\n");
 
         if(spell.isV()) {
             tvComponents.append(" V");

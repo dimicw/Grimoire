@@ -1,5 +1,6 @@
 package com.example.grimuare;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
 
     ArrayList<Spell> allSpells = new ArrayList<>();
     ArrayList<ChosenSpell> chosenSpells = new ArrayList<>();
-    
+
     int[] classImages = {
             R.drawable.class_icon___artificer,  //0
             R.drawable.class_icon___bard,       //1
@@ -80,6 +81,15 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
             NodeList spellNodes = document.getElementsByTagName("spell");
             for (int i = 0; i < spellNodes.getLength(); i++) {
                 Element spellElement = (Element) spellNodes.item(i);
+
+                NodeList descriptionNodes = spellElement.getElementsByTagName("description");
+                String[] descriptionStrings = new String[descriptionNodes.getLength()];
+
+                for(int j = 0; j < descriptionNodes.getLength(); j++) {
+                    Element descriptionElement = (Element) descriptionNodes.item(j);
+                    descriptionStrings[j] = descriptionElement.getTextContent();
+                }
+
                 Spell spell = new Spell(
                     spellElement.getElementsByTagName("name").item(0).getTextContent(),
                     spellElement.getElementsByTagName("source").item(0).getTextContent(),
@@ -94,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
                     Boolean.parseBoolean(spellElement.getElementsByTagName("m").item(0).getTextContent()),
                     spellElement.getElementsByTagName("duration").item(0).getTextContent(),
                     Boolean.parseBoolean(spellElement.getElementsByTagName("concentration").item(0).getTextContent()),
-                    spellElement.getElementsByTagName("description").item(0).getTextContent()
+                    descriptionStrings
                 );
 
                 spellsList.add(spell);
