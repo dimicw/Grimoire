@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfSpell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <Spell>
+<spells>
+    <spell>
         <name>Acid Splash</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -30,8 +30,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Blade Ward</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -61,8 +61,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Booming Blade</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>0</level>
@@ -92,8 +92,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Chill Touch</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -123,8 +123,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Control Flames</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -159,8 +159,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Create Bonfire</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -190,8 +190,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dancing Lights</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -222,8 +222,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Decompose (HB)</name>
         <source>Critical Role (&lt;a href="https://twitter.com/matthewmercer/status/1027797251484078080?lang=en"&gt;Twitter&lt;/a&gt;)</source>
         <level>0</level>
@@ -253,8 +253,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Druidcraft</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -288,8 +288,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Eldritch Blast</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -319,8 +319,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Encode Thoughts</name>
         <source>Guildmaster's Guide to Ravnica</source>
         <level>0</level>
@@ -352,8 +352,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fire Bolt</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -383,8 +383,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Friends</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -414,8 +414,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Frostbite</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -445,8 +445,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Green-Flame Blade</name>
         <source>Tasha's Cauldron of Everything/Sword Coast Adventurer's Guide</source>
         <level>0</level>
@@ -476,8 +476,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Guidance</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -507,8 +507,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Gust</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -541,8 +541,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hand of Radiance (UA)</name>
         <source>Unearthed Arcana 36 - Starter Spells</source>
         <level>0</level>
@@ -572,8 +572,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Infestation</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -603,8 +603,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Light</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -635,8 +635,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Lightning Lure</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>0</level>
@@ -666,8 +666,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mage Hand</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -699,8 +699,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Magic Stone</name>
         <source>Xanathar's Guide to Everything/Elemental Evil Player's Companion</source>
         <level>0</level>
@@ -731,8 +731,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mending</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -763,8 +763,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Message</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -795,8 +795,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mind Sliver</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>0</level>
@@ -826,8 +826,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Minor Illusion</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -860,8 +860,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mold Earth</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -895,8 +895,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>On/Off (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>0</level>
@@ -926,8 +926,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Poison Spray</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -957,8 +957,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Prestidigitation</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -995,8 +995,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Primal Savagery</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -1026,8 +1026,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Produce Flame</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1058,8 +1058,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Ray of Frost</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1089,8 +1089,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Resistance</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1120,8 +1120,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sacred Flame</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1151,8 +1151,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sapping Sting</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>0</level>
@@ -1182,8 +1182,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Shape Water</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -1218,8 +1218,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Shillelagh</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1249,8 +1249,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Shocking Grasp</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1280,8 +1280,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Spare the Dying</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1311,8 +1311,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sword Burst</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>0</level>
@@ -1342,8 +1342,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Thaumaturgy</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1380,8 +1380,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Thorn Whip</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1411,8 +1411,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Thunderclap</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -1442,8 +1442,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Toll the Dead</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -1473,8 +1473,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>True Strike</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1504,8 +1504,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Vicious Mockery</name>
         <source>Player's Handbook</source>
         <level>0</level>
@@ -1535,8 +1535,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Virtue (UA)</name>
         <source>Unearthed Arcana 36 - Starter Spells</source>
         <level>0</level>
@@ -1566,8 +1566,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Word of Radiance</name>
         <source>Xanathar's Guide to Everything</source>
         <level>0</level>
@@ -1597,8 +1597,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Absorb Elements</name>
         <source>Xanathar's Guide to Everything</source>
         <level>1</level>
@@ -1628,8 +1628,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Acid Stream (UA)</name>
         <source>Unearthed Arcana 70 - Spells and Magic Tattoos</source>
         <level>1</level>
@@ -1659,8 +1659,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Alarm</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -1691,8 +1691,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Animal Friendship</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -1722,8 +1722,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Arcane Weapon (UA)</name>
         <source>Unearthed Arcana 60 - The Artificer Returns</source>
         <level>1</level>
@@ -1754,8 +1754,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Armor of Agathys</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -1785,8 +1785,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Arms of Hadar</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -1816,8 +1816,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Bane</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -1847,8 +1847,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Beast Bond</name>
         <source>Xanathar's Guide to Everything</source>
         <level>1</level>
@@ -1878,8 +1878,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Bless</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -1909,8 +1909,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Burning Hands</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -1941,8 +1941,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Catapult</name>
         <source>Xanathar's Guide to Everything</source>
         <level>1</level>
@@ -1972,8 +1972,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Cause Fear</name>
         <source>Xanathar's Guide to Everything</source>
         <level>1</level>
@@ -2003,8 +2003,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Ceremony</name>
         <source>Xanathar's Guide to Everything</source>
         <level>1</level>
@@ -2041,8 +2041,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Chaos Bolt</name>
         <source>Xanathar's Guide to Everything</source>
         <level>1</level>
@@ -2075,8 +2075,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Charm Person</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2106,8 +2106,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Chromatic Orb</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2137,8 +2137,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Color Spray</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2169,8 +2169,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Command</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2205,8 +2205,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Compelled Duel</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2237,8 +2237,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Comprehend Languages</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2269,8 +2269,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Create or Destroy Water</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2302,8 +2302,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Cure Wounds</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2333,8 +2333,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Detect Evil and Good</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2365,8 +2365,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Detect Magic</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2397,8 +2397,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Detect Poison and Disease</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2429,8 +2429,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Disguise Self</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2461,8 +2461,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dissonant Whispers</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2492,8 +2492,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Distort Value</name>
         <source>Acquisitions Inc.</source>
         <level>1</level>
@@ -2523,8 +2523,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Divine Favor</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2554,8 +2554,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Earth Tremor</name>
         <source>Xanathar's Guide to Everything/Elemental Evil Player's Companion</source>
         <level>1</level>
@@ -2585,8 +2585,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Ensnaring Strike</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2617,8 +2617,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Entangle</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2650,8 +2650,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Expeditious Retreat</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2681,8 +2681,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Faerie Fire</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2714,8 +2714,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>False Life</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2745,8 +2745,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Feather Fall</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2776,8 +2776,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Find Familiar</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2812,8 +2812,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fog Cloud</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2843,8 +2843,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Frost Fingers</name>
         <source>Icewind Dale - Rime of the Frostmaiden</source>
         <level>1</level>
@@ -2875,8 +2875,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Gift of Alacrity</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>1</level>
@@ -2906,8 +2906,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Goodberry</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2938,8 +2938,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Grease</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -2970,8 +2970,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Guiding Bolt</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3001,8 +3001,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Guiding Hand (UA)</name>
         <source>Unearthed Arcana 36 - Starter Spells</source>
         <level>1</level>
@@ -3034,8 +3034,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hail of Thorns</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3065,8 +3065,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Healing Elixir (UA)</name>
         <source>Unearthed Arcana 36 - Starter Spells</source>
         <level>1</level>
@@ -3097,8 +3097,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Healing Word</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3128,8 +3128,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hellish Rebuke</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3159,8 +3159,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Heroism</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3190,8 +3190,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hex</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3223,8 +3223,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hunter's Mark</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3255,8 +3255,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Ice Knife</name>
         <source>Xanathar's Guide to Everything</source>
         <level>1</level>
@@ -3286,8 +3286,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Id Insinuation (UA)</name>
         <source>Unearthed Arcana 66 - Fighter, Rogue, and Wizard</source>
         <level>1</level>
@@ -3317,8 +3317,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Identify</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3349,8 +3349,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Illusory Script</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3382,8 +3382,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Infallible Relay (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>1</level>
@@ -3414,8 +3414,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Inflict Wounds</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3445,8 +3445,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Jim's Magic Missile</name>
         <source>Acquisitions Inc.</source>
         <level>1</level>
@@ -3477,8 +3477,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Jump</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3508,8 +3508,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Longstrider</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3539,8 +3539,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mage Armor</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3570,8 +3570,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Magic Missile</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3601,8 +3601,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Magnify Gravity</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>1</level>
@@ -3633,8 +3633,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Protection from Evil and Good</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3665,8 +3665,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Puppet (UA)</name>
         <source>Unearthed Arcana 36 - Starter Spells</source>
         <level>1</level>
@@ -3696,8 +3696,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Purify Food and Drink</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3727,8 +3727,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Ray of Sickness</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3758,8 +3758,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Remote Access (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>1</level>
@@ -3789,8 +3789,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sanctuary</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3821,8 +3821,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Searing Smite</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3853,8 +3853,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sense Emotion (UA)</name>
         <source>Unearthed Arcana 36 - Starter Spells</source>
         <level>1</level>
@@ -3884,8 +3884,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Shield</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3915,8 +3915,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Shield of Faith</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3946,8 +3946,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Silent Image</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -3979,8 +3979,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Silvery Barbs</name>
         <source>Strixhaven: A Curriculum of Chaos</source>
         <level>1</level>
@@ -4011,8 +4011,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sleep</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -4043,8 +4043,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Snare</name>
         <source>Xanathar's Guide to Everything</source>
         <level>1</level>
@@ -4077,8 +4077,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Speak with Animals</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -4108,8 +4108,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sudden Awakening (UA)</name>
         <source>Unearthed Arcana 36 - Starter Spells</source>
         <level>1</level>
@@ -4139,8 +4139,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tasha's Caustic Brew</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>1</level>
@@ -4171,8 +4171,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tasha's Hideous Laughter</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -4203,8 +4203,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tenser's Floating Disk</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -4236,8 +4236,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Thunderous Smite</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -4267,8 +4267,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Thunderwave</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -4299,8 +4299,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Unearthly Chorus (UA)</name>
         <source>Unearthed Arcana 36 - Starter Spells</source>
         <level>1</level>
@@ -4331,8 +4331,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Unseen Servant</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -4364,8 +4364,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wild Cunning (UA)</name>
         <source>Unearthed Arcana 36 - Starter Spells</source>
         <level>1</level>
@@ -4401,8 +4401,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Witch Bolt</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -4432,8 +4432,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wrathful Smite</name>
         <source>Player's Handbook</source>
         <level>1</level>
@@ -4463,8 +4463,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Zephyr Strike</name>
         <source>Xanathar's Guide to Everything</source>
         <level>1</level>
@@ -4495,8 +4495,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Aganazzar's Scorcher</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -4526,8 +4526,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Aid</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4557,8 +4557,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Air Bubble</name>
         <source>Spelljammer: Adventures in Space - Astral Adventurer's Guide</source>
         <level>2</level>
@@ -4588,8 +4588,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Alter Self</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4622,8 +4622,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Animal Messenger</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4654,8 +4654,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Arcane Hacking (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>2</level>
@@ -4686,8 +4686,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Arcane Lock</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4719,8 +4719,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Augury</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4755,8 +4755,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Barkskin</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4786,8 +4786,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Beast Sense</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4817,8 +4817,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Blindness/Deafness</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4848,8 +4848,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Blur</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4879,8 +4879,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Borrowed Knowledge</name>
         <source>Strixhaven: A Curriculum of Chaos</source>
         <level>2</level>
@@ -4910,8 +4910,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Branding Smite</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4941,8 +4941,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Calm Emotions</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -4973,8 +4973,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Cloud of Daggers</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5004,8 +5004,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Continual Flame</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5035,8 +5035,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Cordon of Arrows</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5067,8 +5067,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Crown of Madness</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5100,8 +5100,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Darkness</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5133,8 +5133,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Darkvision</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5164,8 +5164,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Detect Thoughts</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5199,8 +5199,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Digital Phantom (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>2</level>
@@ -5230,8 +5230,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dragon's Breath</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -5261,8 +5261,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dust Devil</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -5294,8 +5294,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Earthbind</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -5325,8 +5325,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Enhance Ability</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5368,8 +5368,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Enlarge/Reduce</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5402,8 +5402,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Enthrall</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5433,8 +5433,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Find Steed</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5467,8 +5467,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Find Traps</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5500,8 +5500,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Find Vehicle (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>2</level>
@@ -5534,8 +5534,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Flame Blade</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5566,8 +5566,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Flaming Sphere</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5599,8 +5599,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Flock of Familiars</name>
         <source>Lost Laboratory of Kwalish</source>
         <level>2</level>
@@ -5632,8 +5632,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fortune's Favor</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>2</level>
@@ -5664,8 +5664,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Gentle Repose</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5696,8 +5696,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Gift of Gab</name>
         <source>Acquisitions Inc.</source>
         <level>2</level>
@@ -5727,8 +5727,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Gust of Wind</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5761,8 +5761,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Healing Spirit</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -5794,8 +5794,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Heat Metal</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5826,8 +5826,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hold Person</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5857,8 +5857,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Icingdeath's Frost (UA)</name>
         <source>Unearthed Arcana 78 - Draconic Options</source>
         <level>2</level>
@@ -5888,8 +5888,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Immovable Object</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>2</level>
@@ -5920,8 +5920,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Invisibility</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -5951,8 +5951,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Jim's Glowing Coin</name>
         <source>Acquisitions Inc.</source>
         <level>2</level>
@@ -5982,8 +5982,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Kinetic Jaunt</name>
         <source>Strixhaven: A Curriculum of Chaos</source>
         <level>2</level>
@@ -6016,8 +6016,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Knock</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6050,8 +6050,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Lesser Restoration</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6081,8 +6081,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Levitate</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6114,8 +6114,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Locate Animals or Plants</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6145,8 +6145,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Locate Object</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6178,8 +6178,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Magic Mouth</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6211,8 +6211,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Magic Weapon</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6242,8 +6242,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Maximillian's Earthen Grasp</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -6276,8 +6276,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Melf's Acid Arrow</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6307,8 +6307,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mental Barrier (UA)</name>
         <source>Unearthed Arcana 66 - Fighter, Rogue, and Wizard</source>
         <level>2</level>
@@ -6338,8 +6338,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mind Spike</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -6369,8 +6369,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mind Thrust (UA)</name>
         <source>Unearthed Arcana 71 - Psionic Options Revisited</source>
         <level>2</level>
@@ -6400,8 +6400,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mirror Image</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6435,8 +6435,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Misty Step</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6466,8 +6466,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Moonbeam</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6500,8 +6500,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Nathair's Mischief</name>
         <source>Fizban's Treasury of Dragons</source>
         <level>2</level>
@@ -6532,8 +6532,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Nathair's Mischief (UA)</name>
         <source>Unearthed Arcana 78 - Draconic Options</source>
         <level>2</level>
@@ -6564,8 +6564,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Nystul's Magic Aura</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6598,8 +6598,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Pass Without Trace</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6629,8 +6629,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Phantasmal Force</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6664,8 +6664,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Prayer of Healing</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6695,8 +6695,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Protection from Poison</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6727,8 +6727,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Pyrotechnics</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -6760,8 +6760,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Ray of Enfeeblement</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6792,8 +6792,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Rime's Binding Ice</name>
         <source>Fizban's Treasury of Dragons</source>
         <level>2</level>
@@ -6823,8 +6823,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Rope Trick</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6857,8 +6857,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Scorching Ray</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6888,8 +6888,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>See Invisibility</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6919,8 +6919,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Shadow Blade</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -6951,8 +6951,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Shatter</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -6983,8 +6983,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Silence</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -7014,8 +7014,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Skywrite</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -7045,8 +7045,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Snilloc's Snowball Storm</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -7076,8 +7076,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Spider Climb</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -7107,8 +7107,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Spike Growth</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -7139,8 +7139,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Spiritual Weapon</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -7173,8 +7173,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Spray of Cards (UA)</name>
         <source>Unearthed Arcana 85 - Wonders of the Multiverse</source>
         <level>2</level>
@@ -7208,8 +7208,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Suggestion</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -7242,8 +7242,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Beast</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>2</level>
@@ -7274,8 +7274,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tasha's Mind Whip</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>2</level>
@@ -7305,8 +7305,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Thought Shield (UA)</name>
         <source>Unearthed Arcana 66 - Fighter, Rogue, and Wizard</source>
         <level>2</level>
@@ -7336,8 +7336,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Vortex Warp</name>
         <source>Strixhaven: A Curriculum of Chaos</source>
         <level>2</level>
@@ -7367,8 +7367,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Warding Bond</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -7400,8 +7400,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Warding Wind</name>
         <source>Xanathar's Guide to Everything</source>
         <level>2</level>
@@ -7437,8 +7437,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Web</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -7472,8 +7472,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wither and Bloom</name>
         <source>Strixhaven: A Curriculum of Chaos</source>
         <level>2</level>
@@ -7504,8 +7504,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wristpocket</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>2</level>
@@ -7536,8 +7536,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Zone of Truth</name>
         <source>Player's Handbook</source>
         <level>2</level>
@@ -7568,8 +7568,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Animate Dead</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -7601,8 +7601,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Antagonize (UA)</name>
         <source>Unearthed Arcana 85 - Wonders of the Multiverse</source>
         <level>3</level>
@@ -7632,8 +7632,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Ashardalon's Stride</name>
         <source>Fizban's Treasury of Dragons</source>
         <level>3</level>
@@ -7664,8 +7664,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Aura of Vitality</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -7695,8 +7695,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Beacon of Hope</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -7726,8 +7726,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Bestow Curse</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -7762,8 +7762,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Blinding Smite</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -7794,8 +7794,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Blink</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -7827,8 +7827,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Call Lightning</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -7860,8 +7860,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Catnap</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -7891,8 +7891,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Clairvoyance</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -7923,8 +7923,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Animals</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -7961,8 +7961,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Barrage</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -7992,8 +7992,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Lesser Demon (UA)</name>
         <source>Unearthed Arcana 11 - That Old Black Magic</source>
         <level>3</level>
@@ -8025,8 +8025,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Counterspell</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8056,8 +8056,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Create Food and Water</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8087,8 +8087,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Crusader's Mantle</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8118,8 +8118,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Daylight</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8151,8 +8151,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dispel Magic</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8182,8 +8182,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Elemental Weapon</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8213,8 +8213,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Enemies Abound</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -8245,8 +8245,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Erupting Earth</name>
         <source>Xanathar's Guide to Everything/Elemental Evil Player's Companion</source>
         <level>3</level>
@@ -8276,8 +8276,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fast Friends</name>
         <source>Acquisitions Inc.</source>
         <level>3</level>
@@ -8309,8 +8309,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fear</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8341,8 +8341,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Feign Death</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8373,8 +8373,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fireball</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8404,8 +8404,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Flame Arrows</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -8435,8 +8435,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Flame Stride (UA)</name>
         <source>Unearthed Arcana 78 - Draconic Options</source>
         <level>3</level>
@@ -8466,8 +8466,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fly</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8497,8 +8497,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Freedom of the Waves (HB)</name>
         <source>Tal'Dorei Campaign Setting Reborn</source>
         <level>3</level>
@@ -8529,8 +8529,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Galder's Tower</name>
         <source>Lost Laboratory of Kwalish</source>
         <level>3</level>
@@ -8570,8 +8570,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Gaseous Form</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8603,8 +8603,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Glyph of Warding</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8640,8 +8640,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Haste</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8672,8 +8672,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Haywire (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>3</level>
@@ -8705,8 +8705,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>House of Cards (UA)</name>
         <source>Unearthed Arcana 85 - Wonders of the Multiverse</source>
         <level>3</level>
@@ -8738,8 +8738,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hunger Of Hadar</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8770,8 +8770,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hypnotic Pattern</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8802,8 +8802,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Incite Greed</name>
         <source>Acquisitions Inc.</source>
         <level>3</level>
@@ -8834,8 +8834,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Intellect Fortress</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>3</level>
@@ -8865,8 +8865,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Invisibility To Cameras (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>3</level>
@@ -8896,8 +8896,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Leomund's Tiny Hut</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8929,8 +8929,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Life Transference</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -8960,8 +8960,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Lightning Arrow</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -8993,8 +8993,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Lightning Bolt</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9025,8 +9025,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Magic Circle</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9061,8 +9061,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Major Image</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9094,8 +9094,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mass Healing Word</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9125,8 +9125,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Meld into Stone</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9158,8 +9158,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Melf's Minute Meteors</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -9189,8 +9189,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Motivational Speech</name>
         <source>Acquisitions Inc.</source>
         <level>3</level>
@@ -9220,8 +9220,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Nondetection</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9251,8 +9251,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Phantom Steed</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9283,8 +9283,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Plant Growth</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9317,8 +9317,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Protection from Energy</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9348,8 +9348,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Psionic Blast (UA)</name>
         <source>Unearthed Arcana 66 - Fighter, Rogue, and Wizard</source>
         <level>3</level>
@@ -9379,8 +9379,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Pulse Wave</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>3</level>
@@ -9411,8 +9411,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Remove Curse</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9442,8 +9442,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Revivify</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9473,8 +9473,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sending</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9505,8 +9505,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sleet Storm</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9538,8 +9538,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Slow</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9572,8 +9572,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Speak with Dead</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9604,8 +9604,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Speak with Plants</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9639,8 +9639,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Spirit Guardians</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9671,8 +9671,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Spirit Shroud</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>3</level>
@@ -9704,8 +9704,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Stinking Cloud</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -9737,8 +9737,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Fey</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>3</level>
@@ -9769,8 +9769,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Lesser Demons</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -9804,8 +9804,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Shadowspawn</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>3</level>
@@ -9836,8 +9836,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Undead</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>3</level>
@@ -9868,8 +9868,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Warrior Spirit (UA)</name>
         <source>Unearthed Arcana 85 - Wonders of the Multiverse</source>
         <level>3</level>
@@ -9900,8 +9900,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Thunder Step</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -9932,8 +9932,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tidal Wave</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -9963,8 +9963,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tiny Servant</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -9996,8 +9996,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tongues</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -10027,8 +10027,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Vampiric Touch</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -10058,8 +10058,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wall of Sand</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -10089,8 +10089,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wall of Water</name>
         <source>Xanathar's Guide to Everything</source>
         <level>3</level>
@@ -10121,8 +10121,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Water Breathing</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -10152,8 +10152,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Water Walk</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -10184,8 +10184,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wind Wall</name>
         <source>Player's Handbook</source>
         <level>3</level>
@@ -10217,8 +10217,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Arcane Eye</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10249,8 +10249,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Aura of Life</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10280,8 +10280,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Aura of Purity</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10311,8 +10311,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Banishment</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10344,8 +10344,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Blight</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10376,8 +10376,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Charm Monster</name>
         <source>Xanathar's Guide to Everything</source>
         <level>4</level>
@@ -10407,8 +10407,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Compulsion</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10439,8 +10439,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Confusion</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10473,8 +10473,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Barlgura (UA)</name>
         <source>Unearthed Arcana 11 - That Old Black Magic</source>
         <level>4</level>
@@ -10506,8 +10506,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Knowbot (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>4</level>
@@ -10540,8 +10540,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Minor Elementals</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10577,8 +10577,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Shadow Demon (UA)</name>
         <source>Unearthed Arcana 11 - That Old Black Magic</source>
         <level>4</level>
@@ -10610,8 +10610,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Woodland Beings</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10647,8 +10647,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Control Water</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10684,8 +10684,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Death Ward</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10715,8 +10715,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dimension Door</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10748,8 +10748,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Divination</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10781,8 +10781,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dominate Beast</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10815,8 +10815,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Ego Whip (UA)</name>
         <source>Unearthed Arcana 66 - Fighter, Rogue, and Wizard</source>
         <level>4</level>
@@ -10846,8 +10846,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Elemental Bane</name>
         <source>Xanathar's Guide to Everything</source>
         <level>4</level>
@@ -10877,8 +10877,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Evard's Black Tentacles</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10910,8 +10910,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fabricate</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -10943,8 +10943,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Find Greater Steed</name>
         <source>Xanathar's Guide to Everything</source>
         <level>4</level>
@@ -10974,8 +10974,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fire Shield</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11007,8 +11007,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Freedom of Movement</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11039,8 +11039,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Galder's Speedy Courier</name>
         <source>Lost Laboratory of Kwalish</source>
         <level>4</level>
@@ -11072,8 +11072,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Giant Insect</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11106,8 +11106,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Grasping Vine</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11138,8 +11138,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Gravity Sinkhole</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>4</level>
@@ -11169,8 +11169,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Greater Invisibility</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11200,8 +11200,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Guardian of Faith</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11232,8 +11232,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Guardian of Nature</name>
         <source>Xanathar's Guide to Everything</source>
         <level>4</level>
@@ -11273,8 +11273,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hallucinatory Terrain</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11305,8 +11305,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Ice Storm</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11337,8 +11337,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Leomund's Secret Chest</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11370,8 +11370,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Locate Creature</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11403,8 +11403,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mordenkainen's Faithful Hound</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11436,8 +11436,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mordenkainen's Private Sanctum</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11475,8 +11475,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Otiluke's Resilient Sphere</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11509,8 +11509,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Phantasmal Killer</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11541,8 +11541,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Polymorph</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11576,8 +11576,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Raulothim's Psychic Lance</name>
         <source>Fizban's Treasury of Dragons</source>
         <level>4</level>
@@ -11608,8 +11608,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Raulothim's Psychic Lance (UA)</name>
         <source>Unearthed Arcana 78 - Draconic Options</source>
         <level>4</level>
@@ -11640,8 +11640,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Shadow Of Moil</name>
         <source>Xanathar's Guide to Everything</source>
         <level>4</level>
@@ -11672,8 +11672,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sickening Radiance</name>
         <source>Xanathar's Guide to Everything</source>
         <level>4</level>
@@ -11704,8 +11704,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Spirit of Death (UA)</name>
         <source>Unearthed Arcana 85 - Wonders of the Multiverse</source>
         <level>4</level>
@@ -11736,8 +11736,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Staggering Smite</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11767,8 +11767,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Stone Shape</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11798,8 +11798,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Stoneskin</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -11829,8 +11829,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Storm Sphere</name>
         <source>Xanathar's Guide to Everything</source>
         <level>4</level>
@@ -11862,8 +11862,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Aberration</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>4</level>
@@ -11894,8 +11894,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Construct</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>4</level>
@@ -11926,8 +11926,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Elemental</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>4</level>
@@ -11958,8 +11958,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Greater Demon</name>
         <source>Xanathar's Guide to Everything</source>
         <level>4</level>
@@ -11992,8 +11992,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Synchronicity (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>4</level>
@@ -12025,8 +12025,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>System Backdoor (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>4</level>
@@ -12057,8 +12057,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Vitriolic Sphere</name>
         <source>Xanathar's Guide to Everything</source>
         <level>4</level>
@@ -12088,8 +12088,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wall of Fire</name>
         <source>Player's Handbook</source>
         <level>4</level>
@@ -12121,8 +12121,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Watery Sphere</name>
         <source>Xanathar's Guide to Everything</source>
         <level>4</level>
@@ -12156,8 +12156,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Widogast's Vault of Amber (HB)</name>
         <source>Critical Role (&lt;a href="https://twitter.com/VoiceOfOBrien/status/1233524328517586949"&gt;Twitter&lt;/a&gt;)</source>
         <level>4</level>
@@ -12188,8 +12188,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Widogast's Web of Fire (HB)</name>
         <source>Critical Role (&lt;a href="https://twitter.com/VoiceOfOBrien/status/1182533609283915776"&gt;Twitter&lt;/a&gt;)</source>
         <level>4</level>
@@ -12221,8 +12221,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Animate Objects</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12256,8 +12256,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Antilife Shell</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12289,8 +12289,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Awaken</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12322,8 +12322,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Banishing Smite</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12353,8 +12353,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Bigby's Hand</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12394,8 +12394,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Circle of Power</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12426,8 +12426,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Cloudkill</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12459,8 +12459,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Commune</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12492,8 +12492,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Commune with City (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>5</level>
@@ -12530,8 +12530,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Commune with Nature</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12568,8 +12568,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Cone of Cold</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12599,8 +12599,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Elemental</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12632,8 +12632,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Volley</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12663,8 +12663,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Vrock (UA)</name>
         <source>Unearthed Arcana 11 - That Old Black Magic</source>
         <level>5</level>
@@ -12697,8 +12697,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Contact Other Plane</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12729,8 +12729,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Contagion</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12774,8 +12774,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Control Winds</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -12811,8 +12811,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Create Spelljamming Helm</name>
         <source>Spelljammer: Adventures in Space - Astral Adventurer's Guide</source>
         <level>5</level>
@@ -12842,8 +12842,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Creation</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12876,8 +12876,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Danse Macabre</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -12908,8 +12908,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dawn</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -12939,8 +12939,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Destructive Wave</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -12970,8 +12970,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dispel Evil and Good</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13005,8 +13005,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dominate Person</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13039,8 +13039,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dream</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13073,8 +13073,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Enervation</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -13104,8 +13104,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Far Step</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -13135,8 +13135,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Flame Strike</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13166,8 +13166,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Freedom of the Winds (HB)</name>
         <source>Tal'Dorei Campaign Setting Reborn</source>
         <level>5</level>
@@ -13198,8 +13198,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Geas</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13231,8 +13231,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Greater Restoration</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13266,8 +13266,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hallow</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13319,8 +13319,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Hold Monster</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13350,8 +13350,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Holy Weapon</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -13381,8 +13381,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Immolation</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -13413,8 +13413,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Infernal Calling</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -13448,8 +13448,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Insect Plague</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13480,8 +13480,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Legend Lore</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13512,8 +13512,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Maelstrom</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -13543,8 +13543,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mass Cure Wounds</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13574,8 +13574,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mislead</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13607,8 +13607,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Modify Memory</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13642,8 +13642,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Negative Energy Flood</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -13673,8 +13673,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Passwall</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13705,8 +13705,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Planar Binding</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13737,8 +13737,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Raise Dead</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13771,8 +13771,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Rary's Telepathic Bond</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13803,8 +13803,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Reincarnate</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13837,8 +13837,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Scrying</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13873,8 +13873,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Seeming</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -13907,8 +13907,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Shutdown (UA)</name>
         <source>Unearthed Arcana 7 - Modern Magic</source>
         <level>5</level>
@@ -13938,8 +13938,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Skill Empowerment</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -13970,8 +13970,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Steel Wind Strike</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -14002,8 +14002,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Celestial</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>5</level>
@@ -14034,8 +14034,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Draconic Spirit</name>
         <source>Fizban's Treasury of Dragons</source>
         <level>5</level>
@@ -14066,8 +14066,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Draconic Spirit (UA)</name>
         <source>Unearthed Arcana 78 - Draconic Options</source>
         <level>5</level>
@@ -14098,8 +14098,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Swift Quiver</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -14130,8 +14130,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Synaptic Static</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -14162,8 +14162,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Telekinesis</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -14204,8 +14204,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Teleportation Circle</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -14238,8 +14238,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Temporal Shunt</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>5</level>
@@ -14269,8 +14269,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Transmute Rock</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -14310,8 +14310,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tree Stride</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -14343,8 +14343,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wall of Force</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -14376,8 +14376,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wall of Light</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -14410,8 +14410,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wall of Stone</name>
         <source>Player's Handbook</source>
         <level>5</level>
@@ -14446,8 +14446,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wrath Of Nature</name>
         <source>Xanathar's Guide to Everything</source>
         <level>5</level>
@@ -14481,8 +14481,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Arcane Gate</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14514,8 +14514,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Blade Barrier</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14546,8 +14546,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Bones of the Earth</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -14579,8 +14579,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Chain Lightning</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14611,8 +14611,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Circle of Death</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14642,8 +14642,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Fey</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14675,8 +14675,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Contingency</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14708,8 +14708,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Create Homunculus</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -14739,8 +14739,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Create Undead</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14772,8 +14772,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Disintegrate</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14806,8 +14806,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Drawmij's Instant Summons</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14839,8 +14839,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Druid Grove</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -14878,8 +14878,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Eyebite</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14915,8 +14915,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Find the Path</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -14947,8 +14947,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fizban's Platinum Shield</name>
         <source>Fizban's Treasury of Dragons</source>
         <level>6</level>
@@ -14982,8 +14982,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fizban's Platinum Shield (UA)</name>
         <source>Unearthed Arcana 78 - Draconic Options</source>
         <level>6</level>
@@ -15018,8 +15018,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Flesh to Stone</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15051,8 +15051,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Forbiddance</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15085,8 +15085,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Globe of Invulnerability</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15117,8 +15117,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Gravity Fissure</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>6</level>
@@ -15149,8 +15149,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Guards and Wards</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15197,8 +15197,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Harm</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15228,8 +15228,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Heal</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15259,8 +15259,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Heroes' Feast</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15291,8 +15291,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Investiture of Flame</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -15325,8 +15325,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Investiture of Ice</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -15360,8 +15360,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Investiture of Stone</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -15394,8 +15394,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Investiture of Wind</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -15428,8 +15428,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Magic Jar</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15465,8 +15465,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mass Suggestion</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15499,8 +15499,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mental Prison</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -15530,8 +15530,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Move Earth</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15565,8 +15565,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Otherworldly Form (UA)</name>
         <source>Unearthed Arcana 70 - Spells and Magic Tattoos</source>
         <level>6</level>
@@ -15602,8 +15602,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Otiluke's Freezing Sphere</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15635,8 +15635,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Otto's Irresistible Dance</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15667,8 +15667,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Planar Ally</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15703,8 +15703,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Primordial Ward</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -15735,8 +15735,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Programmed Illusion</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15769,8 +15769,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Psychic Crush (UA)</name>
         <source>Unearthed Arcana 66 - Fighter, Rogue, and Wizard</source>
         <level>6</level>
@@ -15801,8 +15801,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Scatter</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -15832,8 +15832,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Soul Cage</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -15868,8 +15868,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Summon Fiend</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>6</level>
@@ -15900,8 +15900,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sunbeam</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -15933,8 +15933,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tasha's Otherworldly Guise</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>6</level>
@@ -15970,8 +15970,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tenser's Transformation</name>
         <source>Xanathar's Guide to Everything</source>
         <level>6</level>
@@ -16008,8 +16008,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Transport via Plants</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -16039,8 +16039,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>True Seeing</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -16070,8 +16070,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wall of Ice</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -16103,8 +16103,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wall of Thorns</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -16136,8 +16136,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Widogast's Transmogrification (HB)</name>
         <source>Critical Role (&lt;a href="https://twitter.com/VoiceOfOBrien/status/1233524328517586949"&gt;Twitter&lt;/a&gt;)</source>
         <level>6</level>
@@ -16168,8 +16168,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wind Walk</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -16201,8 +16201,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Word of Recall</name>
         <source>Player's Handbook</source>
         <level>6</level>
@@ -16233,8 +16233,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Celestial</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16265,8 +16265,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Conjure Hezrou (UA)</name>
         <source>Unearthed Arcana 11 - That Old Black Magic</source>
         <level>7</level>
@@ -16299,8 +16299,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Create Magen</name>
         <source>Icewind Dale - Rime of the Frostmaiden</source>
         <level>7</level>
@@ -16332,8 +16332,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Crown of Stars</name>
         <source>Xanathar's Guide to Everything</source>
         <level>7</level>
@@ -16363,8 +16363,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Delayed Blast Fireball</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16397,8 +16397,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Divine Word</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16433,8 +16433,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Draconic Transformation</name>
         <source>Fizban's Treasury of Dragons</source>
         <level>7</level>
@@ -16467,8 +16467,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Draconic Transformation (UA)</name>
         <source>Unearthed Arcana 78 - Draconic Options</source>
         <level>7</level>
@@ -16501,8 +16501,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dream of the Blue Veil</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>7</level>
@@ -16534,8 +16534,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Etherealness</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16568,8 +16568,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Finger of Death</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16600,8 +16600,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Fire Storm</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16632,8 +16632,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Forcecage</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16668,8 +16668,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mirage Arcane</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16702,8 +16702,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mordenkainen's Magnificent Mansion</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16735,8 +16735,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mordenkainen's Sword</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16767,8 +16767,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Plane Shift</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16800,8 +16800,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Power Word: Pain</name>
         <source>Xanathar's Guide to Everything</source>
         <level>7</level>
@@ -16833,8 +16833,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Prismatic Spray</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16865,8 +16865,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Project Image</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16899,8 +16899,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Regenerate</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16931,8 +16931,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Resurrection</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16966,8 +16966,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Reverse Gravity</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -16999,8 +16999,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sequester</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -17032,8 +17032,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Simulacrum</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -17066,8 +17066,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Symbol</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -17117,8 +17117,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Teleport</name>
         <source>Player's Handbook</source>
         <level>7</level>
@@ -17165,8 +17165,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Temple of the Gods</name>
         <source>Xanathar's Guide to Everything</source>
         <level>7</level>
@@ -17203,8 +17203,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tether Essence</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>7</level>
@@ -17234,8 +17234,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Whirlwind</name>
         <source>Xanathar's Guide to Everything</source>
         <level>7</level>
@@ -17268,8 +17268,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Abi-Dalzim's Horrid Wilting</name>
         <source>Xanathar's Guide to Everything</source>
         <level>8</level>
@@ -17299,8 +17299,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Animal Shapes</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17332,8 +17332,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Antimagic Field</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17378,8 +17378,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Antipathy/Sympathy</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17415,8 +17415,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Clone</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17447,8 +17447,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Control Weather</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17483,8 +17483,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dark Star</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>8</level>
@@ -17516,8 +17516,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Demiplane</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17548,8 +17548,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Dominate Monster</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17583,8 +17583,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Earthquake</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17623,8 +17623,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Feeblemind</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17656,8 +17656,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Glibness</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17687,8 +17687,8 @@
             <warlock>true</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Holy Aura</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17718,8 +17718,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Illusory Dragon</name>
         <source>Xanathar's Guide to Everything</source>
         <level>8</level>
@@ -17753,8 +17753,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Incendiary Cloud</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17786,8 +17786,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Maddening Darkness</name>
         <source>Xanathar's Guide to Everything</source>
         <level>8</level>
@@ -17817,8 +17817,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Maze</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17850,8 +17850,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mighty Fortress</name>
         <source>Xanathar's Guide to Everything</source>
         <level>8</level>
@@ -17887,8 +17887,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mind Blank</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17918,8 +17918,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Power Word: Stun</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -17949,8 +17949,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Reality Break</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>8</level>
@@ -17983,8 +17983,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Sunburst</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -18016,8 +18016,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Telepathy</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -18048,8 +18048,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Tsunami</name>
         <source>Player's Handbook</source>
         <level>8</level>
@@ -18082,8 +18082,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Astral Projection</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18116,8 +18116,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Blade of Disaster</name>
         <source>Tasha's Cauldron of Everything</source>
         <level>9</level>
@@ -18149,8 +18149,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Foresight</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18180,8 +18180,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Gate</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18214,8 +18214,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Imprisonment</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18269,8 +18269,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Invulnerability</name>
         <source>Xanathar's Guide to Everything</source>
         <level>9</level>
@@ -18300,8 +18300,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mass Heal</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18331,8 +18331,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Mass Polymorph</name>
         <source>Xanathar's Guide to Everything</source>
         <level>9</level>
@@ -18366,8 +18366,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Meteor Swarm</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18398,8 +18398,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Power Word: Heal</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18429,8 +18429,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Power Word: Kill</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18460,8 +18460,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Prismatic Wall</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18495,8 +18495,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Psychic Scream</name>
         <source>Xanathar's Guide to Everything</source>
         <level>9</level>
@@ -18528,8 +18528,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Ravenous Void</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>9</level>
@@ -18561,8 +18561,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Shapechange</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18597,8 +18597,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Storm of Vengeance</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18631,8 +18631,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Time Ravage</name>
         <source>Explorer's Guide to Wildemount</source>
         <level>9</level>
@@ -18662,8 +18662,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Time Stop</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18694,8 +18694,8 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>True Polymorph</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18743,8 +18743,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>True Resurrection</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18776,8 +18776,8 @@
             <warlock>false</warlock>
             <wizard>false</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Weird</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18809,8 +18809,8 @@
             <warlock>true</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-    <Spell>
+    </spell>
+    <spell>
         <name>Wish</name>
         <source>Player's Handbook</source>
         <level>9</level>
@@ -18849,5 +18849,5 @@
             <warlock>false</warlock>
             <wizard>true</wizard>
         </spellListsDivided>
-    </Spell>
-</ArrayOfSpell>
+    </spell>
+</spells>
