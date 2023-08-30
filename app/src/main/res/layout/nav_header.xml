@@ -13,7 +13,7 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/header_image"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_marginTop="24dp"
@@ -25,7 +25,7 @@
             app:tint="@color/white" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/header_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
@@ -33,20 +33,21 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintEnd_toStartOf="@+id/header_image"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/header_class"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:text="@string/placeholder_text"
             android:textColor="@color/white"
             android:textSize="14dp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintEnd_toStartOf="@+id/header_image"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/header_name" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>

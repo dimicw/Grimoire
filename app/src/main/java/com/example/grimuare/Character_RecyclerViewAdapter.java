@@ -13,15 +13,18 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class Character_RecyclerViewAdapter extends RecyclerView.Adapter<Character_RecyclerViewAdapter.MyViewHolder> {
+
+
+
     private final RecyclerViewInterface recyclerViewInterface;
 
     Context context;
-    ArrayList<ChosenSpell> chosenSpells;
+    ArrayList<Character> allCharacters;
 
-    public Character_RecyclerViewAdapter (Context context, ArrayList<ChosenSpell> chosenSpells,
+    public Character_RecyclerViewAdapter (Context context, ArrayList<Character> allCharacters,
                                       RecyclerViewInterface recyclerViewInterface) {
         this.context = context;
-        this.chosenSpells = chosenSpells;
+        this.allCharacters = allCharacters;
         this.recyclerViewInterface = recyclerViewInterface;
     }
 
@@ -29,21 +32,21 @@ public class Character_RecyclerViewAdapter extends RecyclerView.Adapter<Characte
     @Override
     public Character_RecyclerViewAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
-        View view = inflater.inflate(R.layout.spell_recycler_view_row, parent, false);
+        View view = inflater.inflate(R.layout.character_recycler_view_row, parent, false);
 
         return new Character_RecyclerViewAdapter.MyViewHolder(view, recyclerViewInterface);
     }
 
     @Override
     public void onBindViewHolder(@NonNull Character_RecyclerViewAdapter.MyViewHolder holder, int position) {
-        holder.tvName.setText(chosenSpells.get(position).getName());
-        holder.tvClass.setText(chosenSpells.get(position).getLevelAndSchool());
-        holder.imageView.setImageResource(chosenSpells.get(position).getImage());
+        holder.tvName.setText(allCharacters.get(position).getName());
+        holder.tvClass.setText(allCharacters.get(position).getMainClass());
+        holder.imageView.setImageResource(allCharacters.get(position).getImage());
     }
 
     @Override
     public int getItemCount() {
-        return chosenSpells.size();
+        return allCharacters.size();
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {

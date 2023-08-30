@@ -3,7 +3,6 @@ package com.example.grimuare;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -22,7 +21,8 @@ public class BrowseSpellsFragment extends Fragment implements RecyclerViewInterf
 
     RecyclerView recyclerView;
 
-    public static BrowseSpellsFragment newInstance(ArrayList<ChosenSpell> chosenSpells, int[] classImages) {
+    public static BrowseSpellsFragment newInstance(ArrayList<ChosenSpell> chosenSpells,
+                                                   int[] classImages) {
         BrowseSpellsFragment fragment = new BrowseSpellsFragment();
         Bundle args = new Bundle();
         args.putSerializable("chosenSpells", chosenSpells);
@@ -32,9 +32,11 @@ public class BrowseSpellsFragment extends Fragment implements RecyclerViewInterf
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_browse_spells, container, false);
 
+        assert getArguments() != null;
         chosenSpells = (ArrayList<ChosenSpell>) getArguments().getSerializable("chosenSpells");
         classImages = getArguments().getIntArray("classImages");
 

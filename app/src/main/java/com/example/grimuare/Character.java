@@ -1,13 +1,21 @@
 package com.example.grimuare;
 
-public class Character {
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Character implements Serializable {
+    private String name;
     private int strength, dexterity, constitution, intelligence, wisdom, charisma;
     private int level;
     private String mainClass;
     private int image;
+    private ArrayList<BoundSpell> boundSpells;
 
-    public Character(int strength, int dexterity, int constitution, int intelligence, int wisdom,
-                     int charisma, int level, String mainClass, int image) {
+    public Character(String name, int strength, int dexterity, int constitution,
+                     int intelligence, int wisdom, int charisma,
+                     int level, String mainClass, int image) {
+        this.name = name;
         this.strength = strength;
         this.dexterity = dexterity;
         this.constitution = constitution;
@@ -17,8 +25,12 @@ public class Character {
         this.level = level;
         this.mainClass = mainClass;
         this.image = image;
+        this.boundSpells = new ArrayList<>();
     }
 
+    public String getName() {
+        return name;
+    }
     public int getStrength() {
         return strength;
     }
@@ -46,7 +58,13 @@ public class Character {
     public String getMainClass() {
         return mainClass;
     }
+    public ArrayList<BoundSpell> getBoundSpells() {
+        return boundSpells;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
     public void setStrength(int strength) {
         this.strength = strength;
     }
@@ -100,6 +118,14 @@ public class Character {
         modifier += 2 + (this.level - 1) / 4;
 
         return modifier;
+    }
+
+    public void addSpell(int spellId, int spellImage) {
+        this.boundSpells.add(new BoundSpell(spellId, spellImage));
+    }
+
+    public void removeSpell(int spellId) {
+        this.boundSpells.removeIf(boundSpell -> boundSpell.getSpellId() == spellId);
     }
 
     private int getAbilityModifier(int value) {

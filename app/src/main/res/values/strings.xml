@@ -25,4 +25,6 @@
     <string name="add_spell_button">Add spell to spellbook</string>
     <string name="add_character_button">Create new character</string>
     <string name="switch_character_button">Switch character</string>
+    <string name="add_nonclass_spell_button">Add non-class spell</string>
+    <string name="browse_all_spells_button">Browse all spells</string>
 </resources>
