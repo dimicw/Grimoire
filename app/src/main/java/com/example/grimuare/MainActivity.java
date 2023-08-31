@@ -9,7 +9,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.res.AssetManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
@@ -22,31 +21,41 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
+import java.util.Objects;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener,
-        ChangeCharacterFragment.CharacterClickListener,
-        AddSpellFragment.SpellClickListener {
+public class MainActivity extends AppCompatActivity implements
+        NavigationView.OnNavigationItemSelectedListener,
+        ChangeCharacter_Fragment.CharacterInteractionListener,
+        AddSpell_Fragment.SpellClickListener,
+        BrowseSpellsFragment.SpellClickListener,
+        AddCharacter_Fragment.SaveCharacterListener {
 
+    private static final String FILE_NAME = "characters";
+
+    // arrays
     private ArrayList<Spell> allSpells = new ArrayList<>();
     private ArrayList<ChosenSpell> chosenSpells = new ArrayList<>();
     private ArrayList<Character> allCharacters = new ArrayList<>();
 
     private int currentCharacterId;
 
+    // views and layouts
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
-    private View headerView;
     private TextView headerName, headerClass;
     private ImageView headerImage;
 
-    private int[] classImages = {
+    private static final int[] classImages = {
             R.drawable.class_icon___artificer,  //0
             R.drawable.class_icon___bard,       //1
             R.drawable.class_icon___blood_mage, //2
@@ -64,6 +73,10 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toolbar toolbar;
+        View headerView;
+        ActionBarDrawerToggle toggle;
+
         // Load XML for parsing
         AssetManager assetManager = getAssets();
         InputStream inputStream;
@@ -71,30 +84,35 @@ public class MainActivity extends AppCompatActivity
             inputStream = assetManager.open("all_spells.xml");
             allSpells = parseSpellXML(inputStream);
         } catch (IOException e) {
-            Log.e("tag", e.getMessage());
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
         }
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        loadCharactersFromFile();
+        if (allCharacters.size() <= 1)
+            allCharacters.add(new Character("New Character", 10, 10, 10,
+                   10, 10, 10, 1, "Wizard", classImages[8]));
 
+        // setting up toolbar and navbar
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar,
+                R.string.open_nav, R.string.close_nav);
+        drawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
+
+        // finding navbar header
         headerView = navigationView.getHeaderView(0);
         headerName = headerView.findViewById(R.id.header_name);
         headerClass = headerView.findViewById(R.id.header_class);
         headerImage = headerView.findViewById(R.id.header_image);
 
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar,
-                R.string.open_nav, R.string.close_nav);
-        drawerLayout.addDrawerListener(toggle);
-        toggle.syncState();
-
-        addSampleCharacter();                       // TODO: CHANGE IN FUTURE
-        changeCharacter(0);
-
+        // open app on browsing spells
         if(savedInstanceState == null) {
+            changeCharacter(0);
             openBrowseSpells();
         }
     }
@@ -109,25 +127,40 @@ public class MainActivity extends AppCompatActivity
                 allAsChosen.add(new ChosenSpell(spell, R.drawable.big_book));
 
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    AddSpellFragment.newInstance(allAsChosen, this)).commit();
+                    AddSpell_Fragment.newInstance(allAsChosen, this)).commit();
         }
         else if(item.getItemId() == R.id.nav_switch_character)
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    ChangeCharacterFragment.newInstance(allCharacters, this)).commit();
+                    ChangeCharacter_Fragment.newInstance(allCharacters, this)).commit();
         else if(item.getItemId() == R.id.nav_add_character)
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new AddCharacterFragment()).commit();
-        else if(item.getItemId() == R.id.nav_add_nonclass_spell);
+                    AddCharacter_Fragment.newInstance(this)).commit();
+            //addCharacter();
+        else if(item.getItemId() == R.id.nav_add_nonclass_spell) {
+            // TODO: add class restrictions
+        }
         else if(item.getItemId() == R.id.nav_browse_all_spells) {
             chosenSpells = new ArrayList<>();
             for(Spell spell : allSpells)
                 chosenSpells.add(new ChosenSpell(spell, R.drawable.big_book));
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    BrowseSpellsFragment.newInstance(chosenSpells, classImages)).commit();
+                    BrowseSpellsFragment.newInstance(chosenSpells, classImages, false, this)).commit();
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void addCharacter() {
+        /*
+        allCharacters.add(new Character("New Character", 10, 10, 10,
+                10, 10, 10,
+                1, "Wizard", classImages[9]));
+        saveCharactersToFile();
+        */
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                new AddCharacter_Fragment()).commit();
     }
 
     @Override
@@ -149,7 +182,7 @@ public class MainActivity extends AppCompatActivity
                     );
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                BrowseSpellsFragment.newInstance(chosenSpells, classImages)).commit();
+                BrowseSpellsFragment.newInstance(chosenSpells, classImages, true, this)).commit();
         navigationView.setCheckedItem(R.id.nav_browse_spells);
     }
 
@@ -199,27 +232,6 @@ public class MainActivity extends AppCompatActivity
         return spellsList;
     }
 
-    public void addSampleCharacter() {
-        allCharacters.add(new Character("Example character 1", 8,8,8,
-                8,8,8,
-                1, "Cleric", classImages[3]));
-        allCharacters.get(0).addSpell(3, classImages[3]);
-        allCharacters.get(0).addSpell(4, classImages[3]);
-        allCharacters.get(0).addSpell(10, classImages[3]);
-        allCharacters.get(0).addSpell(32, classImages[2]);
-        allCharacters.get(0).addSpell(123, classImages[4]);
-
-
-        allCharacters.add(new Character("Random Elf Druid", 8,8,8,
-                8, 8,8,
-                10, "Druid", classImages[4]));
-        allCharacters.get(1).addSpell(30, classImages[4]);
-        allCharacters.get(1).addSpell(40, classImages[4]);
-        allCharacters.get(1).addSpell(100, classImages[4]);
-        allCharacters.get(1).addSpell(320, classImages[1]);
-        allCharacters.get(1).addSpell(12, classImages[1]);
-    }
-
     @Override
     public void onCharacterClick(int position) {
         changeCharacter(position);
@@ -227,7 +239,19 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public void onSpellClick(int position) {
+    public void onCharacterLongClick(int position) {
+        if (currentCharacterId == position) {
+            if (position != 0)
+                changeCharacter(0);
+            else
+                changeCharacter(1);
+        }
+        allCharacters.remove(position);
+        saveCharactersToFile();
+    }
+
+    @Override
+    public void onAddSpellClick(int position) {
         boolean hasSpell = false;
 
         for (BoundSpell boundSpell : allCharacters.get(currentCharacterId).getBoundSpells())
@@ -238,19 +262,94 @@ public class MainActivity extends AppCompatActivity
 
         if (hasSpell)
             Toast.makeText(this, "You already have this spell", Toast.LENGTH_SHORT).show();
-        else
+        else {
             allCharacters.get(currentCharacterId)
                     .addSpell(position, allCharacters.get(currentCharacterId).getImage()); //TODO: change image
+            saveCharactersToFile();
+        }
 
+        openBrowseSpells();
+    }
+
+    @Override
+    public void onSpellLongClick(int position) {
+        ArrayList<BoundSpell> boundSpells = allCharacters.get(currentCharacterId).getBoundSpells();
+        boundSpells.remove(position);
+        allCharacters.get(currentCharacterId).setBoundSpells(boundSpells);
+
+        saveCharactersToFile();
+    }
+
+    @Override
+    public void onSaveButtonListener(Character character) {
+        allCharacters.add(character);
+        saveCharactersToFile();
+
+        changeCharacter(allCharacters.size() - 1);
         openBrowseSpells();
     }
 
     private void changeCharacter(int id) {
         currentCharacterId = id;
-        getSupportActionBar().setTitle(allCharacters.get(currentCharacterId).getName());
+        Objects.requireNonNull(getSupportActionBar())
+                .setTitle(allCharacters.get(currentCharacterId).getName());
 
         headerName.setText(allCharacters.get(currentCharacterId).getName());
         headerClass.setText(allCharacters.get(currentCharacterId).getMainClass());
         headerImage.setImageResource(allCharacters.get(currentCharacterId).getImage());
+    }
+
+    private void saveCharactersToFile() {
+        FileOutputStream fos = null;
+        ObjectOutputStream oos = null;
+
+        try {
+            fos = openFileOutput(FILE_NAME, MODE_PRIVATE);
+            oos = new ObjectOutputStream(fos);
+
+            oos.writeObject(allCharacters);
+
+            Toast.makeText(this, "Changes saved", Toast.LENGTH_LONG).show();
+
+            oos.close();
+            fos.close();
+        } catch (Exception e) {
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+        } finally {
+            try {
+                if (fos != null)
+                    fos.close();
+                if (oos != null)
+                    oos.close();
+            } catch (Exception e) {
+                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+
+    private void loadCharactersFromFile() {
+        FileInputStream fis = null;
+        ObjectInputStream ois = null;
+
+        try {
+            fis = openFileInput(FILE_NAME);
+            ois = new ObjectInputStream(fis);
+            allCharacters = (ArrayList<Character>) ois.readObject();
+
+            ois.close();
+            fis.close();
+
+        } catch (Exception e) {
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+        } finally {
+            try {
+                if(fis != null)
+                    fis.close();
+                if(ois != null)
+                    ois.close();
+            } catch (Exception e) {
+                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 }
