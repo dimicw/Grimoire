@@ -12,4 +12,5 @@
 
     <!-- light texts -->
     <color name="text">#FFE3CDB3</color>
+    <color name="hint">#80E3CDB3</color>
 </resources>

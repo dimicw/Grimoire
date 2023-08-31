@@ -14,10 +14,10 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 
 
-public class AddSpellFragment extends Fragment implements RecyclerViewInterface{
+public class AddSpell_Fragment extends Fragment implements RecyclerViewInterface{
 
     public interface SpellClickListener {
-        void onSpellClick(int position);
+        void onAddSpellClick(int position);
     }
     private SpellClickListener spellClickListener;
 
@@ -25,9 +25,9 @@ public class AddSpellFragment extends Fragment implements RecyclerViewInterface{
 
     RecyclerView recyclerView;
 
-    public static AddSpellFragment newInstance(ArrayList<ChosenSpell> allSpells,
-                                               SpellClickListener listener) {
-        AddSpellFragment fragment = new AddSpellFragment();
+    public static AddSpell_Fragment newInstance(ArrayList<ChosenSpell> allSpells,
+                                                SpellClickListener listener) {
+        AddSpell_Fragment fragment = new AddSpell_Fragment();
         Bundle args = new Bundle();
         args.putSerializable("allSpells", allSpells);
         fragment.setArguments(args);
@@ -56,14 +56,18 @@ public class AddSpellFragment extends Fragment implements RecyclerViewInterface{
 
     @Override
     public void onItemClick(int position) {
-        /*Intent intent = new Intent(getContext(), SpellCardActivity.class);
+        if (spellClickListener != null)
+            spellClickListener.onAddSpellClick(position);
+    }
+
+    @Override
+    public void onItemLongClick(int position) {
+        Intent intent = new Intent(getContext(), SpellCard_Activity.class);
         Bundle bundle = new Bundle();
 
         bundle.putSerializable("SPELL", allSpells.get(position));
         intent.putExtras(bundle);
 
-        startActivity(intent);*/
-        if (spellClickListener != null)
-            spellClickListener.onSpellClick(position);
+        startActivity(intent);
     }
 }

@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class SpellCardActivity extends AppCompatActivity {
+public class SpellCard_Activity extends AppCompatActivity {
 
     Intent intent;
     Bundle bundle;

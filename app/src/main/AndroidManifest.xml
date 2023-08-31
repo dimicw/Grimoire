@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Grimuare"
         tools:targetApi="31">
         <activity
-            android:name=".SpellCardActivity"
+            android:name=".SpellCard_Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
