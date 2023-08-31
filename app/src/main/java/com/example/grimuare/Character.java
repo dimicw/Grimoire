@@ -2,7 +2,6 @@ package com.example.grimuare;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class Character implements Serializable {
     private String name;
@@ -25,6 +24,53 @@ public class Character implements Serializable {
         this.level = level;
         this.mainClass = mainClass;
         this.image = image;
+        this.boundSpells = new ArrayList<>();
+    }
+
+    public Character(String name, String mainClass) {
+        this.name = name;
+        this.strength = 10;
+        this.dexterity = 10;
+        this.constitution = 10;
+        this.intelligence = 10;
+        this.wisdom = 10;
+        this.charisma = 10;
+        this.level = 1;
+        this.mainClass = mainClass;
+
+        switch(mainClass){
+            case "Artificer":
+                this.image = R.drawable.class_icon___artificer;
+                break;
+            case "Bard":
+                this.image = R.drawable.class_icon___bard;
+                break;
+            case "Cleric":
+                this.image = R.drawable.class_icon___cleric;
+                break;
+            case "Druid":
+                this.image = R.drawable.class_icon___druid;
+                break;
+            case "Paladin":
+                this.image = R.drawable.class_icon___paladin;
+                break;
+            case "Ranger":
+                this.image = R.drawable.class_icon___ranger;
+                break;
+            case "Sorcerer":
+                this.image = R.drawable.class_icon___sorcerer;
+                break;
+            case "Warlock":
+                this.image = R.drawable.class_icon___warlock;
+                break;
+            case "Wizard":
+                this.image = R.drawable.class_icon___wizard;
+                break;
+            default:
+                this.image = R.drawable.big_book;
+                break;
+        }
+
         this.boundSpells = new ArrayList<>();
     }
 
@@ -92,6 +138,9 @@ public class Character implements Serializable {
     public void setMainClass(String mainClass) {
         this.mainClass = mainClass;
     }
+    public void setBoundSpells(ArrayList<BoundSpell> boundSpells) {
+        this.boundSpells = boundSpells;
+    }
 
     public int getModifier(String ability) {
         int modifier = 0;
@@ -124,7 +173,7 @@ public class Character implements Serializable {
         this.boundSpells.add(new BoundSpell(spellId, spellImage));
     }
 
-    public void removeSpell(int spellId) {
+    public void removeSpellById(int spellId) {
         this.boundSpells.removeIf(boundSpell -> boundSpell.getSpellId() == spellId);
     }
 
