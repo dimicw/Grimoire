@@ -59,12 +59,22 @@ public class Spell_RecyclerViewAdapter extends RecyclerView.Adapter<Spell_Recycl
             tvLevelAndSchool = itemView.findViewById(R.id.levelAndSchool);
 
             itemView.setOnClickListener(view -> {
-                if(recyclerViewInterface != null) {
+                if (recyclerViewInterface != null) {
                     int pos = getAdapterPosition();
 
-                    if(pos != RecyclerView.NO_POSITION)
+                    if (pos != RecyclerView.NO_POSITION)
                         recyclerViewInterface.onItemClick(pos);
                 }
+            });
+
+            itemView.setOnLongClickListener(view -> {
+                if (recyclerViewInterface != null) {
+                    int pos = getAdapterPosition();
+
+                    if (pos != RecyclerView.NO_POSITION)
+                        recyclerViewInterface.onItemLongClick(pos);
+                }
+                return true;
             });
         }
     }
