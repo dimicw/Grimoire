@@ -10,24 +10,37 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 
-public class BrowseSpellsFragment extends Fragment implements RecyclerViewInterface{
+public class BrowseSpellsFragment extends Fragment implements RecyclerViewInterface {
+    public interface SpellClickListener {
+        void onSpellLongClick(int position);
+    }
+
+    private SpellClickListener spellClickListener;
+
+    Spell_RecyclerViewAdapter adapter;
 
     ArrayList<ChosenSpell> chosenSpells;
     int[] classImages;
 
     RecyclerView recyclerView;
 
+    boolean ableToDelete;
+
     public static BrowseSpellsFragment newInstance(ArrayList<ChosenSpell> chosenSpells,
-                                                   int[] classImages) {
+                                                   int[] classImages, boolean ableToDelete,
+                                                   SpellClickListener listener) {
         BrowseSpellsFragment fragment = new BrowseSpellsFragment();
         Bundle args = new Bundle();
         args.putSerializable("chosenSpells", chosenSpells);
         args.putIntArray("classImages", classImages);
         fragment.setArguments(args);
+        fragment.spellClickListener = listener;
+        fragment.ableToDelete = ableToDelete;
         return fragment;
     }
 
@@ -42,7 +55,7 @@ public class BrowseSpellsFragment extends Fragment implements RecyclerViewInterf
 
         recyclerView = view.findViewById(R.id.recyclerView);
 
-        Spell_RecyclerViewAdapter adapter = new Spell_RecyclerViewAdapter(
+        adapter = new Spell_RecyclerViewAdapter(
                 getContext(), chosenSpells, this);
 
         recyclerView.setAdapter(adapter);
@@ -53,12 +66,22 @@ public class BrowseSpellsFragment extends Fragment implements RecyclerViewInterf
 
     @Override
     public void onItemClick(int position) {
-        Intent intent = new Intent(getContext(), SpellCardActivity.class);
+        Intent intent = new Intent(getContext(), SpellCard_Activity.class);
         Bundle bundle = new Bundle();
 
         bundle.putSerializable("SPELL", chosenSpells.get(position));
         intent.putExtras(bundle);
 
         startActivity(intent);
+    }
+
+    @Override
+    public void onItemLongClick(int position) {
+        if (spellClickListener != null && ableToDelete){
+            chosenSpells.remove(position);
+            adapter.notifyItemRemoved(position);
+            spellClickListener.onSpellLongClick(position);
+            Toast.makeText(getContext(), "Spell removed", Toast.LENGTH_SHORT).show();
+        }
     }
 }
