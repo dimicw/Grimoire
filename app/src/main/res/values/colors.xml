@@ -6,12 +6,13 @@
 
     <!-- dark backgrounds -->
     <color name="background">#FF111f28</color>
-    <color name="inactive_background">#2C414E</color>
+    <color name="inactive_background">#FF2C414E</color>
 
     <!-- shadowy tints -->
     <color name="backgroundImage">#FF1A2F3C</color>
 
     <!-- light texts -->
     <color name="text">#FFE3CDB3</color>
+    <color name="inactive_text">#FFFFEBD4</color>
     <color name="hint">#80E3CDB3</color>
 </resources>
