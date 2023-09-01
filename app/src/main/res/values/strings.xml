@@ -25,6 +25,9 @@
     <string name="save_button">Save</string>
     <string name="primary_class">Primary class: </string>
 
+    <!-- informative -->
+    <string name="empty_browse">Your spells will be displayed here, \nadd some using "Add spell" button</string>
+
     <!-- array of class names -->
     <string-array name="class_names">
         <item>Artificer</item>

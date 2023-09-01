@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
         }
 
-        loadCharactersFromFile();
+        //loadCharactersFromFile();
         if (allCharacters.size() <= 1)
             allCharacters.add(new Character("New Character", 10, 10, 10,
                    10, 10, 10, 1, "Wizard", classImages[8]));

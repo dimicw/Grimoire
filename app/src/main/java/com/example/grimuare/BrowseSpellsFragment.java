@@ -3,6 +3,7 @@ package com.example.grimuare;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -28,6 +29,7 @@ public class BrowseSpellsFragment extends Fragment implements RecyclerViewInterf
     int[] classImages;
 
     RecyclerView recyclerView;
+    CardView cardView;
 
     boolean ableToDelete;
 
@@ -54,12 +56,18 @@ public class BrowseSpellsFragment extends Fragment implements RecyclerViewInterf
         classImages = getArguments().getIntArray("classImages");
 
         recyclerView = view.findViewById(R.id.recyclerView);
+        cardView = view.findViewById(R.id.empty_browse_card);
 
         adapter = new Spell_RecyclerViewAdapter(
                 getContext(), chosenSpells, this);
 
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        if(chosenSpells.size() == 0)
+            cardView.setVisibility(View.VISIBLE);
+        else
+            cardView.setVisibility((View.GONE));
 
         return view;
     }
