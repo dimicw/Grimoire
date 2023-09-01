@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
         }
 
-        //loadCharactersFromFile();
+        loadCharactersFromFile();
         if (allCharacters.size() <= 1)
             allCharacters.add(new Character("New Character", 10, 10, 10,
                    10, 10, 10, 1, "Wizard", classImages[8]));
@@ -135,7 +135,6 @@ public class MainActivity extends AppCompatActivity implements
         else if(item.getItemId() == R.id.nav_add_character)
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     AddCharacter_Fragment.newInstance(this)).commit();
-            //addCharacter();
         else if(item.getItemId() == R.id.nav_add_nonclass_spell) {
             // TODO: add class restrictions
         }
@@ -149,18 +148,6 @@ public class MainActivity extends AppCompatActivity implements
 
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
-    }
-
-    public void addCharacter() {
-        /*
-        allCharacters.add(new Character("New Character", 10, 10, 10,
-                10, 10, 10,
-                1, "Wizard", classImages[9]));
-        saveCharactersToFile();
-        */
-
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                new AddCharacter_Fragment()).commit();
     }
 
     @Override
